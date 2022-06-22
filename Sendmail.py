@@ -10,9 +10,9 @@ def sendMail():
     Speak("what should i say?")
     query=takecommand()
     if "send a file"in query:
-        email="yadavsaras71a@gmail.com"
-        password="Sarasyadav@420"
-        send_to_mail="sarasyadav420@gmail.com"
+        email="abc@gmail.com"
+        password="123"
+        send_to_mail="xyz420@gmail.com"
         Speak("okey sir, what is the subject for this mail")
         query1=takecommand().lower()
         subject=query1
@@ -44,9 +44,9 @@ def sendMail():
 
 
     else:
-        email="yadavsaras71a@gmail.com"
-        password="Sauryasingh@143"
-        to="sarasyadav420@gmail.com"
+        email="abc@gmail.com"
+        password="123"
+        to="xyz@gmail.com"
         message=query
         server=smtplib.SMTP("smtp.gmail.com",587)
         server.starttls()
